@@ -278,12 +278,12 @@ margin-left: 22%;
 }
 
 
-.labels{
-    
+.premium{
+    margin-top: 5%;
     background-image: linear-gradient(to right, #8490FF , #62BDFC);
 }
-.labels>.row{
-    height: 260px;
+.premium .row{
+    height: 270px;
     background-image: linear-gradient(to right, #8490FF , #62BDFC);
 }
 .site-footer{
