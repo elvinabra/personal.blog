@@ -236,9 +236,18 @@ font-size: 2.3rem;
 color: #ffffff;
 }
 
-.type-one a h5:hover, .p p:hover, .p b:hover{
+.type-one:hover a, .type-one:hover h5, .type-one:hover p,.type-one:hover b, .type-one:hover .pinkBg{
  
     color: white;
+}
+
+.type-one:hover .pinkBg{
+    background-color: #18cded;
+    background-image: linear-gradient(90deg, #7a9fee, #ffffff);
+}
+
+.type-one:hover .pinkBg h3{
+    color:#ffffff;
 }
 
 .tekstavoy{
@@ -325,7 +334,7 @@ footer h4{
 }
 
 .pinkBg {
-    background-color: #ed184f!important;
+    background-color: #ed184f;
     background-image: linear-gradient(90deg, #fd5581, #fd8b55);
 }
 .intro-banner-vdo-play-btn{
